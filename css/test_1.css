@@ -1,0 +1,140 @@
+html, body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header{
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	background-color: green;
+	text-shadow: 0	4px 20px black;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.info{
+	font-size: 20px;
+	color: white; 
+	margin: none;
+	
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+h2{
+	font-size: 40px
+	color: white;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+
+img.big-nike{
+	
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+.content2{
+	padding: 0;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	background-color: green;
+	text-shadow: 0	4px 10px black;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+
+}
+
+.flex-container > div {
+  background-color: green;
+  margin: 40px 50px 20px 50px;
+  padding: 20px;
+  font-size: 50px;
+  border-radius: 20px;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.flex-container2 > div {
+  background-color: green;
+  margin: 20px 50px 40px 50px;
+  padding: 20px;
+  font-size: 50px;
+  border-radius: 20px;
+  width: 200px;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+
+}
+.content3{
+	padding: 0;
+	margin: none;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	background-color: green;
+	text-shadow: 0	4px 10px black;
+
+}
+
+img.sport_pic{
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+	padding-top: 0;
+
+}
+
+a.links{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: grey;
+	}
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;	
+	background-color: lightgrey;
+	
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+/* This is how you write notes in css*/	
+
